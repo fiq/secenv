@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    env:
+      build:
+        context: ./kali
+        dockerfile: ./Dockerfile
+      volumes:
+       - ./workdir:/workdir
